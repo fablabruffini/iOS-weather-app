@@ -125,7 +125,7 @@ class ViewController: UIViewController {
         self.loadingView.isHidden = false
         self.refreshButton.isEnabled = false
         
-        let when = DispatchTime.now() + 2 // change 2 to desired number of seconds
+        let when = DispatchTime.now() + 2
         DispatchQueue.main.asyncAfter(deadline: when) {
             
             _ = self.data()

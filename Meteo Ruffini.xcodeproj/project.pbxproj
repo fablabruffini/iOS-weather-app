@@ -16,13 +16,6 @@
 		C1DBBD021EA41A490078EC11 /* stato.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBCFA1EA41A490078EC11 /* stato.png */; };
 		C1DBBD031EA41A490078EC11 /* temperatura.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBCFB1EA41A490078EC11 /* temperatura.png */; };
 		C1DBBD041EA41A490078EC11 /* vento.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBCFC1EA41A490078EC11 /* vento.png */; };
-		C1DBBD0C1EA41C580078EC11 /* barometro.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD051EA41C580078EC11 /* barometro.png */; };
-		C1DBBD0D1EA41C580078EC11 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD061EA41C580078EC11 /* cloud.png */; };
-		C1DBBD0E1EA41C580078EC11 /* logo_nobg.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD071EA41C580078EC11 /* logo_nobg.png */; };
-		C1DBBD0F1EA41C580078EC11 /* orologio.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD081EA41C580078EC11 /* orologio.png */; };
-		C1DBBD101EA41C580078EC11 /* stato.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD091EA41C580078EC11 /* stato.png */; };
-		C1DBBD111EA41C580078EC11 /* temperatura.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD0A1EA41C580078EC11 /* temperatura.png */; };
-		C1DBBD121EA41C580078EC11 /* vento.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DBBD0B1EA41C580078EC11 /* vento.png */; };
 		C1EC6E941EA37A640035C6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC6E931EA37A640035C6CD /* AppDelegate.swift */; };
 		C1EC6E961EA37A640035C6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC6E951EA37A640035C6CD /* ViewController.swift */; };
 		C1EC6E991EA37A640035C6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EC6E971EA37A640035C6CD /* Main.storyboard */; };
@@ -84,13 +77,6 @@
 		C1DBBCFA1EA41A490078EC11 /* stato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stato.png; sourceTree = "<group>"; };
 		C1DBBCFB1EA41A490078EC11 /* temperatura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temperatura.png; sourceTree = "<group>"; };
 		C1DBBCFC1EA41A490078EC11 /* vento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vento.png; sourceTree = "<group>"; };
-		C1DBBD051EA41C580078EC11 /* barometro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barometro.png; sourceTree = "<group>"; };
-		C1DBBD061EA41C580078EC11 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
-		C1DBBD071EA41C580078EC11 /* logo_nobg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_nobg.png; sourceTree = "<group>"; };
-		C1DBBD081EA41C580078EC11 /* orologio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orologio.png; sourceTree = "<group>"; };
-		C1DBBD091EA41C580078EC11 /* stato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stato.png; sourceTree = "<group>"; };
-		C1DBBD0A1EA41C580078EC11 /* temperatura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temperatura.png; sourceTree = "<group>"; };
-		C1DBBD0B1EA41C580078EC11 /* vento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vento.png; sourceTree = "<group>"; };
 		C1EC6E901EA37A640035C6CD /* MeteoProject_WE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteoProject_WE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC6E931EA37A640035C6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EC6E951EA37A640035C6CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -221,13 +207,6 @@
 				C117419C1EA3FE8E00783F59 /* Reachability.swift */,
 				C1EC6ECC1EA37AB30035C6CD /* MainInterface.storyboard */,
 				C1EC6ECF1EA37AB30035C6CD /* Info.plist */,
-				C1DBBD051EA41C580078EC11 /* barometro.png */,
-				C1DBBD061EA41C580078EC11 /* cloud.png */,
-				C1DBBD071EA41C580078EC11 /* logo_nobg.png */,
-				C1DBBD081EA41C580078EC11 /* orologio.png */,
-				C1DBBD091EA41C580078EC11 /* stato.png */,
-				C1DBBD0A1EA41C580078EC11 /* temperatura.png */,
-				C1DBBD0B1EA41C580078EC11 /* vento.png */,
 			);
 			path = "Meteo Ruffini";
 			sourceTree = "<group>";
@@ -398,14 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DBBD121EA41C580078EC11 /* vento.png in Resources */,
-				C1DBBD0D1EA41C580078EC11 /* cloud.png in Resources */,
-				C1DBBD101EA41C580078EC11 /* stato.png in Resources */,
-				C1DBBD0F1EA41C580078EC11 /* orologio.png in Resources */,
 				C1EC6ECE1EA37AB30035C6CD /* MainInterface.storyboard in Resources */,
-				C1DBBD111EA41C580078EC11 /* temperatura.png in Resources */,
-				C1DBBD0E1EA41C580078EC11 /* logo_nobg.png in Resources */,
-				C1DBBD0C1EA41C580078EC11 /* barometro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         
     @IBOutlet weak var tempLabel: UILabel!
     @IBOutlet weak var barLabel: UILabel!
+    @IBOutlet weak var windSpeedLabel: UILabel!
+    @IBOutlet weak var windDirLabel: UILabel!
+    @IBOutlet weak var lastUpdateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +88,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         let connection = checkWiFi()
         tempLabel.text = "--"
         barLabel.text = "--"
+        windDirLabel.text = "--"
+        windSpeedLabel.text = "--"
+        lastUpdateLabel.text = "--"
         if(connection == true){
             let data = weather_request(forComune: "Viterbo")
             _ = json_parseData(data!)
@@ -98,6 +104,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
                 //UIoutput
                 tempLabel.text = weather["outTemp"] as? String
                 barLabel.text = weather["barometer"] as? String
+                windDirLabel.text = weather["windDirText"] as? String
+                windSpeedLabel.text = weather["windSpeed"] as? String
+                lastUpdateLabel.text = weather["time"] as? String
             }
         }
     }
