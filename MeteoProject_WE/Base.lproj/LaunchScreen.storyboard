@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="30C-vd-R1s"/>
+                        <viewControllerLayoutGuide type="bottom" id="xwG-m7-jB0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7bn-We-dNe">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="0fK-Ie-teF">
+                                <rect key="frame" x="17" y="501" width="990" height="856"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Layout tested only on iPhone 5s/SE. May get distorted on other devices." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hD-ao-zsn">
+                                        <rect key="frame" x="0.0" y="0.0" width="990" height="856"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97817116979999996" green="0.69896346330000003" blue="0.62643325329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1hD-ao-zsn" secondAttribute="trailing" id="59M-p7-xGi"/>
+                                    <constraint firstItem="1hD-ao-zsn" firstAttribute="leading" secondItem="0fK-Ie-teF" secondAttribute="leading" id="Y9u-gl-cOd"/>
+                                    <constraint firstAttribute="bottom" secondItem="1hD-ao-zsn" secondAttribute="bottom" id="cQr-Y7-Sj9"/>
+                                    <constraint firstItem="1hD-ao-zsn" firstAttribute="top" secondItem="0fK-Ie-teF" secondAttribute="top" id="gOz-pI-aK4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="dkq-cJ-JUi">
+                                <rect key="frame" x="44" y="164" width="936" height="57"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meteo Ruffini" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTD-Ov-vTq">
+                                        <rect key="frame" x="380" y="10" width="176" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97817116979999996" green="0.69896346330000003" blue="0.62643325329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="UTD-Ov-vTq" firstAttribute="top" secondItem="dkq-cJ-JUi" secondAttribute="top" constant="10" id="CbJ-2G-FWd"/>
+                                    <constraint firstItem="UTD-Ov-vTq" firstAttribute="centerY" secondItem="dkq-cJ-JUi" secondAttribute="centerY" id="IbG-10-cmE"/>
+                                    <constraint firstItem="UTD-Ov-vTq" firstAttribute="centerX" secondItem="dkq-cJ-JUi" secondAttribute="centerX" id="ddp-9o-rUq"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.png" translatesAutoresizingMaskIntoConstraints="NO" id="2bc-yp-rOl">
+                                <rect key="frame" x="448" y="28" width="128" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99033999443054199" green="0.96364319324493408" blue="0.80392163991928101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0fK-Ie-teF" firstAttribute="leading" secondItem="7bn-We-dNe" secondAttribute="leadingMargin" constant="-3" id="9RO-xW-lCM"/>
+                            <constraint firstItem="2bc-yp-rOl" firstAttribute="centerX" secondItem="dkq-cJ-JUi" secondAttribute="centerX" id="Gc4-wE-cSu"/>
+                            <constraint firstItem="xwG-m7-jB0" firstAttribute="top" secondItem="0fK-Ie-teF" secondAttribute="bottom" constant="9" id="Hu3-fv-4OO"/>
+                            <constraint firstItem="2bc-yp-rOl" firstAttribute="centerX" secondItem="7bn-We-dNe" secondAttribute="centerX" id="RLJ-K6-aNT"/>
+                            <constraint firstItem="dkq-cJ-JUi" firstAttribute="centerX" secondItem="0fK-Ie-teF" secondAttribute="centerX" id="ZcO-jH-35w"/>
+                            <constraint firstItem="dkq-cJ-JUi" firstAttribute="leading" secondItem="7bn-We-dNe" secondAttribute="leadingMargin" constant="24" id="bbI-r0-03T"/>
+                            <constraint firstItem="0fK-Ie-teF" firstAttribute="top" secondItem="7bn-We-dNe" secondAttribute="top" constant="501" id="ibc-q0-SET"/>
+                            <constraint firstItem="dkq-cJ-JUi" firstAttribute="top" secondItem="2bc-yp-rOl" secondAttribute="bottom" constant="8" symbolic="YES" id="k8S-Qc-BQL"/>
+                            <constraint firstItem="2bc-yp-rOl" firstAttribute="top" secondItem="30C-vd-R1s" secondAttribute="bottom" constant="8" symbolic="YES" id="qcA-bD-APu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78.75" y="286.26760563380282"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.png" width="128" height="128"/>
+    </resources>
+</document>
