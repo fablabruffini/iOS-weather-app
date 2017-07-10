@@ -15,4 +15,4 @@ iOS weather app based on JSON parsing of data on www.ruffinifablab.it/weewx/dail
 
 # Current Developer
 
-Luca Scutigliani <a href="www.lucascutigliani.it">www.lucascutigliani.it</a>
+Luca Scutigliani <a href="http://www.lucascutigliani.it">www.lucascutigliani.it</a>
